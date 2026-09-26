@@ -1,22 +1,9 @@
-from image_processing import downsample_rgb, quantize_rgb, image_properties
-
 
 import cv2
 import numpy as np
 
 
-# ========== SAMPLING ========== 
 
-# image = np.array([
-#     [10, 20, 30, 40],
-#     [50, 60, 70, 80],
-#     [90, 100, 110, 120],
-#     [130, 140, 150, 160]
-# ])
-
-# image = cv2.imread("images/test.jpg")
-# image = cv2.imread("images/test2.png")
-import cv2
 
 from image_processing import (
     downsample_rgb,
